@@ -1,0 +1,9 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.openidprovider",
+      "sha256_cert_fingerprints":
+      ["83:58:F8:04:1C:E0:21:2A:A6:13:5C:D7:6B:99:A9:DA:38:6D:61:B5:03:50:02:06:E4:4F:2F:2D:E8:B9:A4:74"]
+    }
+  }]
