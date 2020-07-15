@@ -1,0 +1,15 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "ABCDE12345.app2app.unsicher.ovh" ],
+             "components": [
+               {
+                  "/": "/*",
+                  "comment": "Matches any URL whose path starts with /"
+               }
+             ]
+           }
+       ]
+   }
+}
