@@ -2,7 +2,7 @@
   "applinks": {
       "details": [
            {
-             "appIDs": [ "ABCDE12345.app2app.unsicher.ovh" ],
+             "appIDs": [ "ABCDE12345.com.example.openidprovider" ],
              "components": [
                {
                   "/": "/*",
