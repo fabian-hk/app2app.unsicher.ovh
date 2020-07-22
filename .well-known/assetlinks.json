@@ -6,13 +6,4 @@
     "sha256_cert_fingerprints":
     ["58:27:63:4A:F5:D5:07:7C:DE:4B:94:27:60:B0:C7:CD:33:8D:93:13:02:8D:0B:E0:0F:C5:26:F4:88:39:F1:D5"]
   }
-},
-{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.example.maliciousopenidprovider",
-    "sha256_cert_fingerprints":
-    ["58:27:63:4A:F5:D5:07:7C:DE:4B:94:27:60:B0:C7:CD:33:8D:93:13:02:8D:0B:E0:0F:C5:26:F4:88:39:F1:D5"]
-  }
 }]
