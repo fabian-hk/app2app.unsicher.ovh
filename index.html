@@ -5,7 +5,7 @@
 <br>
 <br>
 <!-- Source: https://developer.chrome.com/multidevice/android/intents -->
-<a href="intent://completed/?code=foo_bar#Intent;scheme=com.example.relyingparty;package=com.example.relyingparty;S.browser_fallback_url=https://yes.com/;end">intent://completed/</a>
+<a href="intent://relyingparty.intranet/rewrite/authresponse?code=foo_bar#Intent;scheme=http;package=com.example.relyingparty;S.browser_fallback_url=https://yes.com/;end">intent://relyingparty.intranet/rewrite/authresponse</a>
 <br>
 <br>
 <a href="com.example.relyingparty://completed/?code=foo_bar">com.example.relyingparty://completed/</a>
@@ -20,4 +20,4 @@
 <a href="/redirect.php">Redirect via Location Header</a>
 <br>
 <br>
-<button onclick="window.location.replace('intent://relyingparty.intranet/accountchooser/?issuer_url=http://openidprovider.intranet:8080/c2id#Intent;scheme=http;package=com.example.relyingparty;S.browser_fallback_url=http://relyingparty.intranet:8070/accountchooser;end');">Redirect via JavaScript</button>
+<button onclick="window.location.assign('intent://relyingparty.intranet/accountchooser/?issuer_url=http://openidprovider.intranet:8080/c2id#Intent;scheme=http;package=com.example.relyingparty;S.browser_fallback_url=http://relyingparty.intranet:8070/accountchooser;end');">Redirect via JavaScript</button>
